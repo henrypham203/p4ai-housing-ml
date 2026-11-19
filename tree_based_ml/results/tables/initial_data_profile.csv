@@ -1,0 +1,3 @@
+dataset,rows_before_cleaning,columns_before_cleaning,duplicate_rows,missing_cells,target_min,target_median,target_mean,target_max,target_std
+Housing,545,13,0,0,1750000.0,4340000.0,4766729.247706422,13300000.0,1870439.615657392
+KingCounty,21613,21,0,0,75000.0,450000.0,540088.1417665294,7700000.0,367127.1964826998

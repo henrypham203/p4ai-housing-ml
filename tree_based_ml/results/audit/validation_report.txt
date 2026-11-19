@@ -1,0 +1,19 @@
+EXPERIMENT AUDIT REPORT
+No hyperparameter search was run by this audit.
+No estimator was fitted on test data.
+Final-fit timing is refreshed only when --measure-fit-time is explicitly supplied.
+PASS Housing: fixed split matches train_test_split(0.20, random_state=42); train=436, test=109.
+PASS Housing/Decision Tree: best CV score and parameters verified; 20 candidates, 5 folds.
+PASS Housing/Decision Tree: saved test predictions match the fixed test rows and actual prices.
+PASS Housing/Random Forest: best CV score and parameters verified; 10 candidates, 5 folds.
+PASS Housing/Random Forest: saved test predictions match the fixed test rows and actual prices.
+PASS Housing/Gradient Boosting: best CV score and parameters verified; 10 candidates, 5 folds.
+PASS Housing/Gradient Boosting: saved test predictions match the fixed test rows and actual prices.
+PASS KingCounty: fixed split matches train_test_split(0.20, random_state=42); train=17290, test=4323.
+PASS KingCounty/Decision Tree: best CV score and parameters verified; 20 candidates, 5 folds.
+PASS KingCounty/Decision Tree: saved test predictions match the fixed test rows and actual prices.
+PASS KingCounty/Random Forest: best CV score and parameters verified; 10 candidates, 5 folds.
+PASS KingCounty/Random Forest: saved test predictions match the fixed test rows and actual prices.
+PASS KingCounty/Gradient Boosting: best CV score and parameters verified; 10 candidates, 5 folds.
+PASS KingCounty/Gradient Boosting: saved test predictions match the fixed test rows and actual prices.
+Existing comparable final-fit timing results were retained; no additional fitting was performed.

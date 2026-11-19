@@ -1,0 +1,19 @@
+MODEL ANALYSIS VALIDATION REPORT
+No hyperparameter tuning was run. The saved fixed train/test membership was unchanged; the diagnostic validation holdout was drawn only from training rows.
+Training/validation curves use an internal 20% holdout from a deterministic sample of the training partition.
+PASS Housing: saved train/test split has no overlap and covers all 545 rows.
+PASS Housing: training rows=436, test rows=109.
+PASS Housing: tuned Gradient Boosting saved predictions match the fixed test row indices and actual prices.
+PASS Housing: diagnostic Gradient Boosting model uses only fixed train/test split training rows.
+PASS Housing: training/validation curve uses an internal holdout from diagnostic training rows.
+INFO Housing: diagnostic sample=436, curve train=348, curve validation=88.
+INFO Housing: diagnostic model fit time=0.0979 seconds (not full final-model training time).
+INFO Housing: test MAE=967592.865132, RMSE=1325441.217395, R2=0.65243446.
+PASS KingCounty: saved train/test split has no overlap and covers all 21613 rows.
+PASS KingCounty: training rows=17290, test rows=4323.
+PASS KingCounty: tuned Gradient Boosting saved predictions match the fixed test row indices and actual prices.
+PASS KingCounty: diagnostic Gradient Boosting model uses only fixed train/test split training rows.
+PASS KingCounty: training/validation curve uses an internal holdout from diagnostic training rows.
+INFO KingCounty: diagnostic sample=8000, curve train=6400, curve validation=1600.
+INFO KingCounty: diagnostic model fit time=3.0795 seconds (not full final-model training time).
+INFO KingCounty: test MAE=73701.121000, RMSE=141604.478327, R2=0.86736166.

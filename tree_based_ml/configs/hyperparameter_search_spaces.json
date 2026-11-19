@@ -1,0 +1,124 @@
+{
+  "Decision Tree": {
+    "search_space": {
+      "max_depth": [
+        null,
+        5,
+        8,
+        10,
+        15,
+        20,
+        30
+      ],
+      "min_samples_split": [
+        2,
+        5,
+        10,
+        20
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4,
+        8,
+        12
+      ],
+      "max_features": [
+        null,
+        "sqrt",
+        "log2"
+      ]
+    },
+    "n_candidates_per_dataset": 20,
+    "cv_folds": 5,
+    "cv_random_state": 42,
+    "search_random_state": 36
+  },
+  "Random Forest": {
+    "search_space": {
+      "n_estimators": [
+        100,
+        150,
+        200
+      ],
+      "max_depth": [
+        null,
+        10,
+        20,
+        30,
+        40
+      ],
+      "min_samples_split": [
+        2,
+        5,
+        10,
+        20
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "max_features": [
+        1.0,
+        "sqrt",
+        "log2"
+      ]
+    },
+    "n_candidates_per_dataset": 10,
+    "cv_folds": 5,
+    "cv_random_state": 36,
+    "search_random_state": 36
+  },
+  "Gradient Boosting": {
+    "search_space": {
+      "n_estimators": [
+        100,
+        150,
+        200,
+        300
+      ],
+      "learning_rate": [
+        0.03,
+        0.05,
+        0.08,
+        0.1,
+        0.15
+      ],
+      "max_depth": [
+        2,
+        3,
+        4
+      ],
+      "min_samples_split": [
+        2,
+        5,
+        10,
+        20
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "subsample": [
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "max_features": [
+        null,
+        1.0,
+        "sqrt",
+        "log2"
+      ]
+    },
+    "n_candidates_per_dataset": 10,
+    "cv_folds": 5,
+    "cv_random_state": 36,
+    "search_random_state": 36
+  }
+}

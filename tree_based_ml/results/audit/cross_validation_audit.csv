@@ -1,0 +1,7 @@
+dataset,model,candidate_count,fold_count,best_cv_rmse,summary_cv_rmse,best_params_found_among_tied_best_candidates,status
+Housing,Decision Tree,20,5,1206697.4314294942,1206697.4314294942,True,PASS
+Housing,Random Forest,10,5,1060460.3944627154,1060460.3944627154,True,PASS
+Housing,Gradient Boosting,10,5,1047919.0119320684,1047919.0119320684,True,PASS
+KingCounty,Decision Tree,20,5,164566.87956951596,164566.87956951596,True,PASS
+KingCounty,Random Forest,10,5,133946.0608873732,133946.0608873732,True,PASS
+KingCounty,Gradient Boosting,10,5,119859.84195566052,119859.84195566052,True,PASS
